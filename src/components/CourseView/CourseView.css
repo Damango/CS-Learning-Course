@@ -1,0 +1,136 @@
+.course-view-container{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    overflow-y: scroll;
+}
+
+
+.course-nav-bar{
+    position: fixed;
+    float: left;
+    width: 16%;
+    height: 100vh;
+    border-right: 1px solid rgba(49, 49, 49, 0.411);
+}
+
+
+.course-nav-bar-header{
+    position: relative;
+    height: 20%;
+    background: linear-gradient(to right,#0085FF, #046ed1);
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header-text{
+    font-size: 25px;
+    width: 250px;
+}
+
+.progress-bar{
+    position: relative;
+    background-color: gray;
+    width: 80%;
+    height: 5px;
+    margin-top: 30px;
+}
+
+.progress-bar-fill{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.course-bar-sections-container{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+
+.course-section{
+    background-color: white;
+    font-family: Roboto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+    transition: 0.3s;
+}
+
+
+.course-section:hover{
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+
+
+
+.close-view-button{
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    font-size: 40px;
+    color: rgb(41, 41, 41);
+    transition: 0.3s;
+}
+
+
+.close-view-button:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.course-material-container{
+    position: relative;
+    float: right;
+    width: 83%;
+    height: 100%;
+
+    
+}
+
+.material-texts-container{
+   
+    margin-top: 75px;
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+}
+
+
+.section-container{
+    margin-bottom: 50px;
+}
+
+
+.section-title{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.section-subtitle{
+    font-family: Roboto;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.course-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: rgb(24, 24, 24);
+}

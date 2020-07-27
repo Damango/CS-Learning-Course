@@ -1,0 +1,17 @@
+{
+    "algorithmsSecitons": [
+        {
+            "header": "1.0 The Stack",
+            "headerText": "This is just filler so that I can really see what I am working with as far as getting multiple lines of code inside where they need to be.",
+            "position": 0,
+            "subSections": [
+                {
+                    "title": "1.1 LIFO",
+                    "texts": [
+                        "When looking at Computer Science an extremly fundamental idea is that data can be stacked like a pile of plates and removed and evaluated as such."
+                    ]
+                }
+            ]
+        }
+    ]
+}
